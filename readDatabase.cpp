@@ -3,6 +3,7 @@
 #include<iostream>
 #include<fstream>
 #include<iomanip>
+#include<cstring>
 
 using namespace std;
 
@@ -30,6 +31,10 @@ void readDatabase(Person* p){
         fin.close();
         throw INPFILEERROR();
     }
+
+    //collects the first row of the database
+    char nid[10], nm[15], gend[10], ag[10], add[15], hasVote[15];
+    fin >> nid >> nm >> gend >> ag >> add >> hasVote;
 
     int i = 0;
     while(fin >> p[i].NID >> p[i].name >> p[i].gender >> p[i].age >> p[i].address >> p[i].isVote){
