@@ -1,0 +1,6 @@
+0001    Srijeeb    Male    18    Bharatpur-12     0
+0002    Sauhard    Male    19    Kathmandu-13     0
+0003    Geeta      Female  26    Thaha-03         1
+0004    Krishna    Male    51    Bharatpur-12     0
+0005    Gaurav     Male    17    Nuwakot-01       0
+0006    Aayusha    Female  15    Hetauda-23       0
